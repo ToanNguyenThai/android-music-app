@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-23dp"
+        android:background="@drawable/rounded_for_layout"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp">
+
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="347dp"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            android:text="CONFIRM"
+
+            android:textColor="#090909"
+            android:textSize="16sp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="30dp" />
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginBottom="356dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textColor="#F6F2F2"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="37dp"
+            android:text="Recover your password!"
+            android:textColor="#012a35"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="284dp"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="500dp"
+            android:text="Sign In"
+            android:textColor="#012a35"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="500dp"
+            android:text="Already a Member ?"
+            android:textColor="#012a35"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="101dp"
+            android:text="Enter the email associatead with your account  and we will send an email with instructions to reset your password."
+            android:textColor="#012a35"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
