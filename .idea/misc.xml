@@ -5,16 +5,28 @@
       <map>
         <entry key="..\:/MusicPlayer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.221" />
         <entry key="..\:/MusicPlayer/app/src/main/res/drawable/background_background.xml" value="0.221" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/circle.xml" value="0.1755" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/gradient_background.xml" value="0.221" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/gradient_background2.xml" value="0.1755" />
         <entry key="..\:/MusicPlayer/app/src/main/res/drawable/rounded_corner.xml" value="0.169" />
         <entry key="..\:/MusicPlayer/app/src/main/res/drawable/rounded_for_layout.xml" value="0.169" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_login.xml" value="0.14920906370243694" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/home.xml" value="0.161231884057971" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/homescreen.xml" value="0.22916666666666666" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/login.xml" value="0.2006340579710145" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/login_failed.xml" value="0.19927536231884058" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/myalbum.xml" value="0.14920906370243694" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/myartist.xml" value="0.14920906370243694" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/mysong.xml" value="0.14920906370243694" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/player.xml" value="0.18229166666666666" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/profile.xml" value="0.176" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/recover.xml" value="0.2" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/recover_confirmation.xml" value="0.19927536231884058" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/recover_success.xml" value="0.22916666666666666" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/search_screen.xml" value="0.176" />
         <entry key="..\:/MusicPlayer/app/src/main/res/layout/signup.xml" value="0.19927536231884058" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/background_round.xml" value="0.1755" />
         <entry key="..\:/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
         <entry key="..\:/MusicPlayer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.137" />
       </map>

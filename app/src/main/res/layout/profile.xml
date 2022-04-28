@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_bg"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/backToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/left_arrow" />
+
+    <TextView
+        android:id="@+id/track2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="44dp"
+        android:text="Track"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="326dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/rounded_for_layout">
+
+        <ImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="111dp"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="33dp"
+            android:text="User name"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_song"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#C4C4C4">
+
+        <TextView
+            android:id="@+id/songlb"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="20dp"
+            android:text="Songs"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/song_number"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="50dp"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_albums"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="231dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#C4C4C4">
+
+        <TextView
+            android:id="@+id/albumlb"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="20dp"
+            android:text="Albums"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/album_number"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="50dp"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_artists"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#C4C4C4">
+
+        <TextView
+            android:id="@+id/artistlb"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="20dp"
+            android:text="Artists"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/artist_number"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="50dp"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="547dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Log out"
+
+        android:textColor="#090909"
+        android:textSize="16sp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="30dp" />
+</RelativeLayout>
